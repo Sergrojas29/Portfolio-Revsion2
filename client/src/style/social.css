@@ -1,0 +1,27 @@
+
+#root{
+
+}
+
+.socialLinks{
+    /* position: absolute; */
+    top: var(--stHght);
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    height: var(--stHght);
+    z-index: 11;
+
+    border: solid 1pt navy;
+    
+}
+
+.logos{
+    width: var(--stHght);
+    height: var(--stHght);
+    border-radius: 100%;
+    background-color: rgba(72, 124, 124, 0);
+    border: solid 1pt teal;
+    
+}

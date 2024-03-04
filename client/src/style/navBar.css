@@ -1,0 +1,46 @@
+#root{
+    --stHght: 100px;
+    --maxWidth: 1200px;
+}
+
+.navBar{
+    /* position: absolute; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: var(--stHght);
+    justify-content: flex-end;
+    z-index: 10;
+    
+    border: solid 1pt red;
+}
+#logo{
+    position: absolute;
+    left: 0;
+    margin: 0 30px;
+
+    height: var(--stHght);
+    width: var(--stHght);
+    border: solid 1pt yellow;
+}
+
+#links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: var(--maxWidth);
+    
+    
+    border: solid 1pt blue;
+    
+}
+
+.link{
+    text-decoration: none;
+}
+
+@media (width <= 1300px ){
+    #logo{
+        display: none;
+    }
+}
